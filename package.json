@@ -1,0 +1,9 @@
+{
+  "name": "type-error",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "api": "cd type-error-api && yarn api",
+    "ui": "cd type-error-ui && npm run start"
+  }
+}
