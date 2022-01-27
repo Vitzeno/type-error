@@ -1,0 +1,19 @@
+table {
+  border: 1px solid #000;
+}
+
+td {
+  border: 1px dashed #000;
+  font-size: large;
+  size: 1em;
+}
+
+thead {
+  font-weight: bold;
+  color: #000;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}

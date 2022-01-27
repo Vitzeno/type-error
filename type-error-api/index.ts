@@ -4,7 +4,7 @@ const app = express();
 const PORT = 8000;
 
 const rootHandler = (_: Request, res: Response) => {
-  setTimeout(() => res.end("Hello World"), 500);
+  setTimeout(() => res.end(), 500);
 };
 
 app.get("/", rootHandler);
