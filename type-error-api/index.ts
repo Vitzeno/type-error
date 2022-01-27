@@ -3,8 +3,8 @@ import express, { Request, Response } from "express";
 const app = express();
 const PORT = 8000;
 
-const rootHandler = (req: Request, res: Response) => {
-  setTimeout(() => res.end("Hello World"), 1000);
+const rootHandler = (_: Request, res: Response) => {
+  setTimeout(() => res.end("Hello World"), 500);
 };
 
 app.get("/", rootHandler);

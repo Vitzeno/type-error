@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Fetch } from "./Fetch";
+import { Fetch } from "./fetch";
 
 ReactDOM.render(
   <React.StrictMode>
