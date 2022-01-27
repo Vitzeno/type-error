@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import { Fetch } from "./Fetch";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Fetch />
   </React.StrictMode>,
   document.getElementById("root")
 );
